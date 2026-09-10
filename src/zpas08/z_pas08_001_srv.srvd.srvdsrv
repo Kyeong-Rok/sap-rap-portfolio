@@ -1,0 +1,4 @@
+@EndUserText.label: 'View Entity Service'
+define service Z_PAS08_001_SRV {
+  expose Z_PAS08_001;
+}
