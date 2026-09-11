@@ -1,0 +1,4 @@
+@EndUserText.label: 'Z_PAS08_002_SRV'
+define service Z_PAS08_002_SRV {
+  expose Z_PAS08_002;
+}

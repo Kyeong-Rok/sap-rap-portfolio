@@ -1,0 +1,15 @@
+unmanaged implementation in class zbp_pas08_002 unique;
+strict ( 2 );
+
+define behavior for Z_PAS08_002 //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  static action SET_TEST;
+}
